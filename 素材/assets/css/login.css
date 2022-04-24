@@ -8,14 +8,47 @@ html {
     background-size: cover;
 }
 
-.login {
+.login,
+.reg {
     width: 400px;
-    height: 310px;
+    height: 320px;
     margin: 15% auto;
     background-color: #eee;
 }
 
 .title {
-    height: 50px;
+    height: 80px;
     background: url(../images/login_title.png) no-repeat center;
+}
+
+.reg_box {
+    display: none;
+}
+
+.reg {
+    display: none;
+}
+
+.login_box,
+.reg_box {
+    cursor: pointer;
+    float: right;
+}
+
+.layui-form {
+    padding: 0 30px;
+}
+
+.layui-form-item {
+    position: relative;
+}
+
+i {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.layui-input {
+    padding-left: 30px;
 }
